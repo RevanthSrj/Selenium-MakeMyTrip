@@ -52,7 +52,7 @@ public class locaterClass {
 	
 	public By enterAge = By.id("age");
 	
-	public By sltGender = By.xpath("//div[@class=\"maleTab \"]");
+	public By sltGender = By.xpath("//div[text()='Male']");
 	
 	public By checkBox = By.xpath("//span[@class=\"checkboxWpr\"]");
 	
