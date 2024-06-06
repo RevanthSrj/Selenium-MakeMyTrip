@@ -165,8 +165,8 @@ public class StepClass extends BaseClass {
 			driver.navigate().back();
 		}
 		
-		
-		
-		
+		Thread.sleep(3000);
+		driver.close();
+	
 	}
 }
